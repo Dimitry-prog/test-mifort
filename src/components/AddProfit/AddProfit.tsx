@@ -2,11 +2,15 @@ import React, {FC, ReactElement} from 'react';
 import {Box, Button, Typography} from "@mui/material";
 import {AddCircle} from "@mui/icons-material";
 
+interface AddProfitProps {
+    renderProfitInputs: () => void;
+    count: number;
+}
 
-const AddProfit: FC<any> = (): ReactElement => {
+const AddProfit: FC<AddProfitProps> = ({renderProfitInputs, count}): ReactElement => {
 
     return (
-        <Box
+        <Box onClick={renderProfitInputs}
             sx={{
             display: "flex",
             alignItems: "center",
@@ -23,7 +27,7 @@ const AddProfit: FC<any> = (): ReactElement => {
             </Button>
             <Typography variant={'body1'} sx={{color: '#0078FF', fontSize: '15px'}}>
                 Add profit target &nbsp;
-                <Typography variant={'body1'} component={'span'}>3 </Typography>/ 5
+                <Typography variant={'body1'} component={'span'}>{count} </Typography>/ 5
             </Typography>
         </Box>
     );
