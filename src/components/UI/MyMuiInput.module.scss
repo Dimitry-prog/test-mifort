@@ -1,0 +1,31 @@
+.textField {
+  color: rgba(255, 255, 255, 0.5);
+  & :global .MuiInputLabel-root.Mui-focused{
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  & :global label{
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.25px;
+  }
+
+  & :global div {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.25px;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    padding-right: 5px;
+  }
+
+  & :global input {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    padding-bottom: 0;
+  }
+}
+
+
