@@ -1,5 +1,6 @@
 {
   "name": "test-mifort",
+  "homepage": "https://dimitry-prog.github.io/test-mifort/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
