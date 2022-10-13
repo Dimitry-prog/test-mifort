@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/test-mifort/static/css/main.350a952c.css",
-    "main.js": "/test-mifort/static/js/main.372812d9.js",
+    "main.css": "/test-mifort/static/css/main.cc171a16.css",
+    "main.js": "/test-mifort/static/js/main.fb0c8d08.js",
     "index.html": "/test-mifort/index.html",
-    "main.350a952c.css.map": "/test-mifort/static/css/main.350a952c.css.map",
-    "main.372812d9.js.map": "/test-mifort/static/js/main.372812d9.js.map"
+    "main.cc171a16.css.map": "/test-mifort/static/css/main.cc171a16.css.map",
+    "main.fb0c8d08.js.map": "/test-mifort/static/js/main.fb0c8d08.js.map"
   },
   "entrypoints": [
-    "static/css/main.350a952c.css",
-    "static/js/main.372812d9.js"
+    "static/css/main.cc171a16.css",
+    "static/js/main.fb0c8d08.js"
   ]
 }
